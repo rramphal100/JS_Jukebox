@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Intro</title>
+	<title>Ryan's Jukebox</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 <body>
-	<h1 class="heading" id="mainHeading">Jukebox</h1>
+	<h1 class="heading" id="mainHeading">Ryan's Jukebox</h1>
 	<div id="player">
 		<audio id="audioplayer">
-			<source src="files/Demons.mp3" type="audio/mp3">
+			<source src="files/Gentleman.mp3" type="audio/mp3">
 		</audio>
+		<button type="button" id="play">Play</button>
+		<button type="button" id="pause">Pause</button>
+		<button type="button" id="stop">Stop</button>
 	</div>
-	<div id="list"></div>
+	<ul id="list">
+		<li id="l1">Demons</li>
+		<li id="l2">Gentleman</li>
+		<li id="l3">Latch</li>
+		<li id="l4">Pompeii</li>
+		<li id="l5">Royals</li>
+	</ul>
 	<script src="jukebox.js" type="text/javascript"></script>
 </body>
 </html>
