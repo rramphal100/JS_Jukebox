@@ -24,32 +24,33 @@ jb.init();
 
 $("#l2").css({"color": "#dd3333"});
 
+//for each of the .load() methods, pass in a string with a path to an mp3 sound file
 $("#l1").on("click", function(){
-	jb.load("files/Demons.mp3");
+	jb.load("");
 	$("#list li").css({"color": "#0088ff"});
 	$("#l1").css({"color": "#dd3333"});
 });
 
 $("#l2").on("click", function(){
-	jb.load("files/Gentleman.mp3");
+	jb.load("");
 	$("#list li").css({"color": "#0088ff"});
 	$("#l2").css({"color": "#dd3333"});
 });
 
 $("#l3").on("click", function(){
-	jb.load("files/Latch.mp3");
+	jb.load("");
 	$("#list li").css({"color": "#0088ff"});
 	$("#l3").css({"color": "#dd3333"});
 });
 
 $("#l4").on("click", function(){
-	jb.load("files/Pompeii.mp3");
+	jb.load("");
 	$("#list li").css({"color": "#0088ff"});
 	$("#l4").css({"color": "#dd3333"});
 });
 
 $("#l5").on("click", function(){
-	jb.load("files/Royals.mp3");
+	jb.load("");
 	$("#list li").css({"color": "#0088ff"});
 	$("#l5").css({"color": "#dd3333"});
 });
